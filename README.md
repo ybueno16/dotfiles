@@ -25,7 +25,7 @@ The vimrc file contains a comprehensive set of configurations managed by the Vim
     Clone the repository to your home directory:
 
 
-    git clone https://github.com/YOUR_USERNAME/dotfiles.git ~/.dotfiles
+    git clone https://github.com/ybueno16/dotfiles.git ~/.dotfiles
 
 Create symbolic links for the configuration files:
 
