@@ -25,14 +25,16 @@ The vimrc file contains a comprehensive set of configurations managed by the Vim
     Clone the repository to your home directory:
 
 
-`git clone https://github.com/YOUR_USERNAME/dotfiles.git ~/.dotfiles`
+    git clone https://github.com/YOUR_USERNAME/dotfiles.git ~/.dotfiles
 
 Create symbolic links for the configuration files:
 
 
-    `ln -s ~/.dotfiles/zshrc ~/.zshrc`
-    `ln -s ~/.dotfiles/vimrc ~/.vimrc`
+    ln -s ~/.dotfiles/zshrc ~/.zshrc
+    ln -s ~/.dotfiles/vimrc ~/.vimrc
+
+Update Plugins
+    
+    vim +PlugInstall
 
     Reload your shell or restart Vim to apply the changes.
-
-Enjoy your enhanced command-line and Vim experience! Feel free to customize these configurations further to suit your preferences.
