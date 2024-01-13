@@ -48,7 +48,12 @@ call plug#end()
 
 " HotKey for FZF
 nnoremap <C-f> :FZF<CR>
-
+nnoremap <C-e> :NERDTree<CR>
+nnoremap <C-q> :NERDTreeClose<CR>
+nnoremap <C-b> :tabnext<CR>
+nnoremap <C-n> :tabprevious<CR>
+nnoremap <C-t> :tabnew<CR>
+nnoremap <C-w> :tabc<CR>
 " Theme TokyoNigth
 set termguicolors
 let g:tokyonight_style = 'storm' " available: night, storm
