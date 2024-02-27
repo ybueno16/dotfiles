@@ -1,0 +1,68 @@
+{
+  "workbench.colorTheme": "SynthWave '84",
+  "editor.fontVariations": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "catppuccin-perfect-mocha",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "json.schemas": [],
+  "files.associations": {
+    "*.inc": "php"
+  },
+  "[dart]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "editor.formatOnSave": true,
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.inlayHints.enabled": "offUnlessPressed"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "dart.flutterSdkPath": "/home/vrsoftware/.puro/envs/vrmobile/flutter",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "http.proxy": "http://192.168.0.251:3128",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontSize": 16,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": -1,
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "vim.commandLineModeKeyBindings": [],
+  "vim.vimrc.enable": true,
+  "vim.vimrc.path": "~/.vimrc",
+  "editor.minimap.enabled": false,
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.location": "hidden",
+  "window.menuBarVisibility": "toggle",
+  "editor.glyphMargin": false,
+  "editor.folding": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "breadcrumbs.enabled": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "explorer.openEditors.visible": 0,
+  "explorer.decorations.colors": false,
+  "window.title": " ",
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true
+}

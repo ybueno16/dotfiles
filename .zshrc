@@ -79,7 +79,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
 	git
 	zsh-autosuggestions
-	zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -112,11 +111,19 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-neofetch --ascii_distro Arch
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-source /home/yuri/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/vrsoftware/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export PATH="$HOME/.fvm/default/bin:$PATH"
+export PATH="$HOME/.puro/bin:$PATH"
+export PATH="$HOME/.puro/envs/vrmobile/flutter/bin:$PATH"
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+neofetch --ascii "$(fortune | cowsay -f daemon -W 30)" | lolcat 
