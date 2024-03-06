@@ -1,9 +1,8 @@
 {
-  "workbench.colorTheme": "SynthWave '84",
   "editor.fontVariations": false,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "workbench.iconTheme": "catppuccin-perfect-mocha",
+  "workbench.iconTheme": "bearded-icons",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
@@ -26,7 +25,6 @@
   "dart.flutterSdkPath": "/home/vrsoftware/.puro/envs/vrmobile/flutter",
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
-  "http.proxy": "http://192.168.0.251:3128",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -64,5 +62,8 @@
   "explorer.decorations.colors": false,
   "window.title": " ",
   "liveServer.settings.donotVerifyTags": true,
-  "liveServer.settings.donotShowInfoMsg": true
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.lineNumbers": "on",
+  "workbench.colorTheme": "Bearded Theme Arc Blueberry",
+  "glassit.alpha": 235,
 }
