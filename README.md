@@ -1,40 +1,50 @@
-# Dotfiles
+# Neovim Dotfiles with LazyVim
 
-This repository contains custom configuration files, also known as dotfiles, for enhancing the command-line experience. The primary configurations are for zsh and vim, providing a customized setup to improve productivity and aesthetics.
-Zsh Configuration
+This repository contains my personal Neovim configuration files, optimized for a smooth and efficient development experience using LazyVim.
 
-The zshrc file includes various customizations using Oh My Zsh. Some notable configurations are:
+## Features
 
-    Theme: The theme is set to "robbyrussell," providing a visually appealing and informative shell prompt.
-    Plugins: Several plugins are loaded, enhancing functionality. Notable plugins include git and zsh-autosuggestions.
-    Syntax Highlighting: Syntax highlighting is enabled for a better visual indication of command structures.
-    FZF Integration: FZF, a command-line fuzzy finder, is integrated for quick and efficient file and command searching.
-    Aliases: A section is dedicated to defining personal aliases for convenient shortcuts.
-
-## Vim Configuration
-
-The vimrc file contains a comprehensive set of configurations managed by the Vim Plug plugin manager. Some highlights include:
-
-    Plugins: Various plugins are managed using Vim Plug, including popular ones like vim-easy-align, NERDTree, and vim-go.
-    Lightline: The lightline.vim plugin is used to enhance the status line at the bottom of the Vim window.
-    TokyoNight Theme: The tokyonight-vim plugin is applied, providing a visually pleasing and customizable color scheme.
-    FZF Integration: FZF is integrated into Vim with a hotkey (<C-f>) for easy file searching.
+- **LazyVim**: A fast and lightweight Neovim configuration that focuses on performance and ease of use.
+- **Lua Configuration**: Utilizes Lua for configuration, taking advantage of Neovim's native Lua support.
+- **Plugin Management**: Includes a curated list of plugins for enhanced functionality, such as autocompletion, LSP support, and more.
+- **Custom Themes**: Includes custom themes for a visually appealing and comfortable coding environment.
 
 ## Installation
 
-    Clone the repository to your home directory:
+1. **Backup your current Neovim configuration**: Before proceeding, ensure you have a backup of your current Neovim configuration.
+
+2. **Clone the repository**:
+`git clone git@github.com:ybueno16/dotfiles.git`
 
 
-    git clone https://github.com/ybueno16/dotfiles.git ~/.dotfiles
+3. **Install LazyVim**:
+   This command will install LazyVim and its plugins.
 
-Create symbolic links for the configuration files:
+4. **Restart Neovim**: Close and reopen Neovim to apply the changes.
 
+## Configuration Overview
 
-    ln -s ~/.dotfiles/zshrc ~/.zshrc
-    ln -s ~/.dotfiles/vimrc ~/.vimrc
+The configuration is organized into the following files and directories:
 
-Update Plugins
-    
-    vim +PlugInstall
+- `init.lua`: The main entry point for the Neovim configuration.
+- `lazy-lock.json`: Contains the locked versions of the plugins for reproducibility.
+- `lua/`: Contains all Lua configuration files.
+ - `plugins/`: Contains individual plugin configurations.
+    - `completions.lua`: Configures autocompletion plugins.
+    - `lsp-config.lua`: Sets up the Language Server Protocol (LSP) for code intelligence.
+    - `neo-tree.lua`: Configures the NeoTree file explorer.
+    - `none-ls.lua`: Configures the None Language Server for additional LSP features.
+    - `telescope.lua`: Configures the Telescope fuzzy finder.
+    - `tokyonight.lua`: Sets up the TokyoNight theme.
+    - `treesitter.lua`: Configures Tree-sitter for syntax highlighting and code analysis.
+ - `plugins.lua`: Aggregates all plugin configurations.
+ - `vim-options.lua`: Configures Neovim's built-in options.
 
-    Reload your shell or restart Vim to apply the changes.
+## Customization
+
+Feel free to customize the configuration to suit your needs. You can modify the Lua files directly or add new ones to extend the functionality.
+
+## Contributing
+
+Contributions are welcome! If you have a feature request or find a bug, please open an issue.
+
