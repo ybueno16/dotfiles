@@ -4,7 +4,6 @@ return {
     lazy = false,
     config = function()
       require("mason").setup({
-        ensure_installed = { "lua_ls" },
       })
     end,
   },
@@ -29,9 +28,6 @@ return {
         capabilities = capabilities,
       })
       lspconfig.html.setup({
-        capabilities = capabilities,
-      })
-      lspconfig.lua_ls.setup({
         capabilities = capabilities,
       })
       lspconfig.jdtls.setup({
