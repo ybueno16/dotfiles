@@ -16,11 +16,7 @@ This repository contains my personal Neovim configuration files, optimized for a
 2. **Clone the repository**:
 `git clone git@github.com:ybueno16/dotfiles.git`
 
-
-3. **Install LazyVim**:
-   This command will install LazyVim and its plugins.
-
-4. **Restart Neovim**: Close and reopen Neovim to apply the changes.
+3. **Restart Neovim**: Close and reopen Neovim to apply the changes and install the plugins.
 
 ## Configuration Overview
 
