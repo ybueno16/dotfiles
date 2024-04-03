@@ -11,8 +11,8 @@ return {
         null_ls.builtins.diagnostics.rubocop,
         null_ls.builtins.formatting.rubocop,
         null_ls.builtins.formatting.gofmt,
-        null_ls.builtins.formatting.google_java_format, -- Formatação para Java
-        null_ls.builtins.diagnostics.checkstyle, -- Diagnóstico para Java
+        null_ls.builtins.formatting.google_java_format, 
+        null_ls.builtins.diagnostics.checkstyle, 
       },
     })
 

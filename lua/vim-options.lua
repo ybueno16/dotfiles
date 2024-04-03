@@ -17,3 +17,7 @@ vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.keymap.set('n', '<leader>t', ':botright 5sp term://zsh<CR>')
 vim.wo.number = true
 
+--Move a line up: ddkP
+
+--Move a line down: ddp
+

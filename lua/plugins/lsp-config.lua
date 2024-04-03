@@ -24,10 +24,16 @@ return {
       lspconfig.tsserver.setup({
         capabilities = capabilities,
       })
+      lspconfig.vtsls.setup({
+        capabilities = capabilities,
+      })
       lspconfig.solargraph.setup({
         capabilities = capabilities,
       })
       lspconfig.html.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.cssls.setup({
         capabilities = capabilities,
       })
       lspconfig.jdtls.setup({
@@ -37,6 +43,9 @@ return {
         capabilities = capabilities,
       })
       lspconfig.gopls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.rust_analyzer.setup({
         capabilities = capabilities,
       })
 
