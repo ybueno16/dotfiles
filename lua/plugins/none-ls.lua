@@ -13,8 +13,6 @@ return {
 				null_ls.builtins.formatting.gofmt,
 				null_ls.builtins.formatting.google_java_format,
 				null_ls.builtins.diagnostics.checkstyle,
-				null_ls.builtins.formatting.clang_format,
-				null_ls.builtins.diagnostics.clang_tidy,
 			},
 		})
 
