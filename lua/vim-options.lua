@@ -17,6 +17,7 @@ vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 
+
 --Move a line up: ddkP
 
 --Move a line down: ddp
