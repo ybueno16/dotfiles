@@ -112,3 +112,5 @@ alias lazy='cd $HOME/.local/bin/ && sudo ./lazydocker'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export TK_SILENCE_DEPRECATION=1
 
+neofetch --ascii "$(fortune | cowsay -f daemon -W 30)" | lolcat
+
