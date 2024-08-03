@@ -4,7 +4,9 @@ return {
 		name = "catppuccin",
 		lazy = false,
 		priority = 1000,
-		opts = {},
+		opts = {
+			transparent_background = true,
+		},
 		config = function()
 			vim.cmd("colorscheme catppuccin-mocha")
 			require("catppuccin").setup({
