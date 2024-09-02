@@ -160,7 +160,7 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym  resize shrink width 10 px or 10 ppt
         bindsym k resize grow height 10 px or 10 ppt
         bindsym l resize shrink height 10 px or 10 ppt
         bindsym ccedilla resize grow width 10 px or 10 ppt
@@ -181,9 +181,6 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-        status_command i3status
-}
 
 # Title Bar
 for_window [class="^.*"] border pixel 0
@@ -193,11 +190,14 @@ default_floating_border none
 
 # GAPS
 gaps inner 15
-gaps outer 5
+gaps outer 3
 smart_gaps on
 smart_borders on
 
-#Wallpaper
+# Wallpaper
 
 exec --no-startup-id nitrogen --set-auto $HOME/Imagens/evangelion-2.jpg
 exec --no-startup-id picom -b
+
+# Polybar
+exec_always polybar --config=~/.config/polybar/config.ini example 
