@@ -11,9 +11,8 @@ return {
 				null_ls.builtins.formatting.gofmt,
 				null_ls.builtins.formatting.google_java_format,
 				null_ls.builtins.diagnostics.checkstyle,
-        null_ls.builtins.diagnostics.djlint,
-        null_ls.builtins.formatting.prettier,
-        null_ls.builtins.formatting.shfmt,
+				null_ls.builtins.diagnostics.djlint,
+				null_ls.builtins.formatting.shfmt,
 			},
 		})
 

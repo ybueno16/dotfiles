@@ -15,7 +15,16 @@ return {
 		},
 	},
 	config = function()
-		vim.keymap.set("n", "<C-n>", ":Neotree filesystem reveal left<CR>", {})
-		vim.keymap.set("n", "<leader>bf", ":Neotree buffers reveal float<CR>", {})
+		vim.keymap.set("n", "<C-n>", "<Cmd>Neotree reveal float<CR>")
+		vim.diagnostic.config({
+			signs = {
+				text = {
+					[vim.diagnostic.severity.ERROR] = "",
+					[vim.diagnostic.severity.WARN] = "",
+					[vim.diagnostic.severity.INFO] = "",
+					[vim.diagnostic.severity.HINT] = "󰌵",
+				},
+			},
+		})
 	end,
 }
