@@ -76,15 +76,8 @@ return {
       lspconfig.clangd.setup {
         capabilities = capabilities,
       }
-      --	lspconfig.html.setup({
-      --		capabilities = capabilities,
-      --	})
-      lspconfig.angularls.setup {
+      lspconfig.html.setup {
         capabilities = capabilities,
-        filetypes = { "typescript", "javascript" },
-        init_options = {
-          provideFormatter = true,
-        },
       }
       lspconfig.bashls.setup {
         capabilities = capabilities,
