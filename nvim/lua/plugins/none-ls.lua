@@ -13,6 +13,7 @@ return {
 				null_ls.builtins.diagnostics.checkstyle,
 				null_ls.builtins.diagnostics.djlint,
 				null_ls.builtins.formatting.shfmt,
+				null_ls.builtins.formatting.prettier,
 			},
 		})
 
